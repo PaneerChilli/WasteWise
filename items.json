@@ -1,0 +1,471 @@
+[
+	{
+		"id": 1,
+		"name": "Vegetable peels",
+		"aliases": ["food scraps", "sabzi peels", "सब्जी के छिलके"],
+		"category": "wet",
+		"rules": ["Compost if possible", "Drain liquids before binning"],
+		"mistakes": ["Mixing with plastics"]
+	},
+	{
+		"id": 2,
+		"name": "Fruit peels",
+		"aliases": ["banana peel", "orange peel", "फल के छिलके"],
+		"category": "wet",
+		"rules": ["Compost if possible"],
+		"mistakes": ["Throwing with dry waste"]
+	},
+	{
+		"id": 3,
+		"name": "Tea leaves",
+		"aliases": ["chai patti", "चाय पत्ती"],
+		"category": "wet",
+		"rules": ["Squeeze out liquid, then bin", "Compost"],
+		"mistakes": ["Putting in dry waste"]
+	},
+	{
+		"id": 4,
+		"name": "Cooked leftovers",
+		"aliases": ["basi khana", "बासी खाना"],
+		"category": "wet",
+		"rules": ["Wet bin", "Tie securely"],
+		"mistakes": ["Leaking into dry waste"]
+	},
+	{
+		"id": 5,
+		"name": "Eggshells",
+		"aliases": ["anda shell", "अंडे का छिलका"],
+		"category": "wet",
+		"rules": ["Rinse; compost if possible"],
+		"mistakes": ["Mixing with plastics"]
+	},
+	{
+		"id": 6,
+		"name": "Garden waste",
+		"aliases": ["leaves", "twigs", "grass", "पत्ते"],
+		"category": "wet",
+		"rules": ["Compost or wet bin"],
+		"mistakes": ["Bundling in plastic bags"]
+	},
+	{
+		"id": 7,
+		"name": "Flowers",
+		"aliases": ["pooja flowers", "phool", "पूजा के फूल"],
+		"category": "wet",
+		"rules": ["Compost or wet bin"],
+		"mistakes": ["Thrown with plastic"]
+	},
+	{
+		"id": 8,
+		"name": "Coconut shell",
+		"aliases": ["nariyal shell", "नारियल का खोल"],
+		"category": "wet",
+		"rules": ["Dry; compost or wet bin"],
+		"mistakes": ["Mixing with dry waste"]
+	},
+	{
+		"id": 9,
+		"name": "Incense ash",
+		"aliases": ["agarbatti ash", "dhoop ash", "अगरबत्ती की राख"],
+		"category": "wet",
+		"rules": ["Cool fully, then wet bin"],
+		"mistakes": ["Left hot in bin"]
+	},
+
+	{
+		"id": 10,
+		"name": "Newspaper",
+		"aliases": ["paper", "अख़बार"],
+		"category": "dry-recyclable",
+		"rules": ["Keep clean and dry"],
+		"mistakes": ["Food stains"]
+	},
+	{
+		"id": 11,
+		"name": "Magazines",
+		"aliases": ["glossy paper", "पत्रिका"],
+		"category": "dry-recyclable",
+		"rules": ["Keep dry"],
+		"mistakes": ["Wet magazines"]
+	},
+	{
+		"id": 12,
+		"name": "Cardboard box (clean)",
+		"aliases": ["shoe box", "carton", "डिब्बा"],
+		"category": "dry-recyclable",
+		"rules": ["Flatten; keep clean and dry"],
+		"mistakes": ["Grease-stained boxes"]
+	},
+	{
+		"id": 13,
+		"name": "Office paper (clean)",
+		"aliases": ["A4 sheets", "प्रिंट पेपर"],
+		"category": "dry-recyclable",
+		"rules": ["No food/oil contamination"],
+		"mistakes": ["Oily stains"]
+	},
+	{
+		"id": 14,
+		"name": "Plastic bottle (PET)",
+		"aliases": ["water bottle", "बोतल"],
+		"category": "dry-recyclable",
+		"rules": ["Empty; rinse; dry"],
+		"mistakes": ["Liquid left inside"]
+	},
+	{
+		"id": 15,
+		"name": "Rigid plastic container (clean)",
+		"aliases": ["dabba", "डिब्बा"],
+		"category": "dry-recyclable",
+		"rules": ["Rinse; dry"],
+		"mistakes": ["Food residue"]
+	},
+	{
+		"id": 16,
+		"name": "Metal can",
+		"aliases": ["cold drink can", "tin can", "डिब्बा"],
+		"category": "dry-recyclable",
+		"rules": ["Rinse; dry"],
+		"mistakes": ["Sticky residue"]
+	},
+	{
+		"id": 17,
+		"name": "Glass bottle (unbroken)",
+		"aliases": ["bottle", "शीशी"],
+		"category": "dry-recyclable",
+		"rules": ["Rinse; remove liquid"],
+		"mistakes": ["Broken pieces loose"]
+	},
+	{
+		"id": 18,
+		"name": "Tetra pack (clean)",
+		"aliases": ["juice box", "टेट्रा पैक"],
+		"category": "dry-recyclable",
+		"rules": ["Rinse, drain, dry; compress"],
+		"mistakes": ["Liquid inside"]
+	},
+	{
+		"id": 19,
+		"name": "Milk pouch (clean)",
+		"aliases": ["milk packet", "दूध पैकेट"],
+		"category": "dry-recyclable",
+		"rules": ["Rinse, drain, dry; cut corner open"],
+		"mistakes": ["Wet with milk"]
+	},
+	{
+		"id": 20,
+		"name": "Aluminium foil (clean)",
+		"aliases": ["foil", "फ़ॉइल"],
+		"category": "dry-recyclable",
+		"rules": ["Only if clean, no food"],
+		"mistakes": ["Oily foil"]
+	},
+	{
+		"id": 21,
+		"name": "Clothes (usable)",
+		"aliases": ["old clothes", "कपड़े"],
+		"category": "dry-recyclable",
+		"rules": ["Donate or give to scrap dealer"],
+		"mistakes": ["Throwing reusable items"]
+	},
+	{
+		"id": 22,
+		"name": "Sweet box (clean)",
+		"aliases": ["mithai box", "मिठाई डिब्बा"],
+		"category": "dry-recyclable",
+		"rules": ["If clean cardboard → recyclable"],
+		"mistakes": ["Oil stains on box"]
+	},
+	{
+		"id": 23,
+		"name": "Shampoo bottle (clean)",
+		"aliases": ["cosmetic bottle", "शैम्पू बोतल"],
+		"category": "dry-recyclable",
+		"rules": ["Rinse; dry"],
+		"mistakes": ["Liquid inside"]
+	},
+
+	{
+		"id": 24,
+		"name": "Pizza box (oily)",
+		"aliases": ["greasy pizza box", "पिज़्ज़ा बॉक्स"],
+		"category": "dry-nonrecyclable",
+		"rules": ["If oily/food-soiled → not recyclable"],
+		"mistakes": ["Putting in paper recycling"]
+	},
+	{
+		"id": 25,
+		"name": "Paper cup",
+		"aliases": ["chai cup", "कागज़ी कप"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Plastic-lined → usually not recyclable"],
+		"mistakes": ["Treating as plain paper"]
+	},
+	{
+		"id": 26,
+		"name": "Multilayered wrappers",
+		"aliases": ["chips packet", "kurkure packet", "चिप्स पैकेट"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Usually non-recyclable"],
+		"mistakes": ["Mixing with clean plastic"]
+	},
+	{
+		"id": 27,
+		"name": "Thermocol",
+		"aliases": ["styrofoam", "थर्माकोल"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Often not recyclable"],
+		"mistakes": ["Breaking into bits"]
+	},
+	{
+		"id": 28,
+		"name": "Broken glass shards",
+		"aliases": ["कांच के टुकड़े"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Wrap in paper; mark GLASS"],
+		"mistakes": ["Loose shards injuring handlers"]
+	},
+	{
+		"id": 29,
+		"name": "Tissue (used)",
+		"aliases": ["napkin", "टिशू"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Used tissues → not recyclable"],
+		"mistakes": ["Putting with paper"]
+	},
+	{
+		"id": 30,
+		"name": "Toothpaste tube",
+		"aliases": ["paste tube", "टूथपेस्ट ट्यूब"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Often multilayer; non-recyclable"],
+		"mistakes": ["Dry recyclable bin"]
+	},
+	{
+		"id": 31,
+		"name": "Plastic carry bag",
+		"aliases": ["poly bag", "थैली"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Often not recyclable; avoid"],
+		"mistakes": ["Mixing with recyclables"]
+	},
+	{
+		"id": 32,
+		"name": "Foam food container (soiled)",
+		"aliases": ["takeaway box", "टिफिन बॉक्स"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Food-soiled → not recyclable"],
+		"mistakes": ["With dry recyclables"]
+	},
+	{
+		"id": 33,
+		"name": "Paper plate (soiled)",
+		"aliases": ["disposable plate", "प्लेट"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Food-soiled → not recyclable"],
+		"mistakes": ["With paper recyclables"]
+	},
+	{
+		"id": 34,
+		"name": "Oil packet/sachet",
+		"aliases": ["cooking oil packet", "तेल पैकेट"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Oily plastic film; usually not recyclable"],
+		"mistakes": ["With clean plastics"]
+	},
+	{
+		"id": 35,
+		"name": "Detergent pouch",
+		"aliases": ["surf packet", "डिटर्जेंट पैकेट"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Multilayer; usually not recyclable"],
+		"mistakes": ["With recyclables"]
+	},
+	{
+		"id": 36,
+		"name": "Medicine blister pack",
+		"aliases": ["tablet pack", "दवा पैक"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Multilayer; not recyclable"],
+		"mistakes": ["With paper"]
+	},
+	{
+		"id": 37,
+		"name": "Pen (empty)",
+		"aliases": ["ball pen", "पेन"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Mixed material; non-recyclable"],
+		"mistakes": ["With paper"]
+	},
+	{
+		"id": 38,
+		"name": "Broken ceramic plate",
+		"aliases": ["सिरेमिक प्लेट"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Wrap; mark CERAMIC"],
+		"mistakes": ["Glass recycling"]
+	},
+	{
+		"id": 39,
+		"name": "PVC pipe offcut (small)",
+		"aliases": ["पीवीसी पाइप"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Mixed plastic; non-recyclable"],
+		"mistakes": ["With clean plastics"]
+	},
+	{
+		"id": 40,
+		"name": "Aluminium foil (oily)",
+		"aliases": ["used foil", "गंदा फ़ॉइल"],
+		"category": "dry-nonrecyclable",
+		"rules": ["Oily/food-soiled foil → not recyclable"],
+		"mistakes": ["Clean recycling stream"]
+	},
+
+	{
+		"id": 41,
+		"name": "Mobile phone",
+		"aliases": ["smartphone", "मोबाइल"],
+		"category": "e-waste",
+		"rules": ["Do not bin; authorized e-waste recycler only"],
+		"mistakes": ["Throwing in dry bin"]
+	},
+	{
+		"id": 42,
+		"name": "Battery (AA/AAA)",
+		"aliases": ["cell", "बैटरी"],
+		"category": "e-waste",
+		"rules": ["Store in box; e-waste collection"],
+		"mistakes": ["Throwing in bins"]
+	},
+	{
+		"id": 43,
+		"name": "Button cell battery",
+		"aliases": ["watch battery", "घड़ी बैटरी"],
+		"category": "e-waste",
+		"rules": ["Hazardous; e-waste drop-off"],
+		"mistakes": ["General bin"]
+	},
+	{
+		"id": 44,
+		"name": "CFL bulb",
+		"aliases": ["energy saver bulb", "सीएफएल"],
+		"category": "e-waste",
+		"rules": ["Contains mercury; e-waste only"],
+		"mistakes": ["Breaking in bin"]
+	},
+	{
+		"id": 45,
+		"name": "Charger/Adapter",
+		"aliases": ["phone charger", "चार्जर"],
+		"category": "e-waste",
+		"rules": ["E-waste drop-off"],
+		"mistakes": ["Dry bin"]
+	},
+
+	{
+		"id": 46,
+		"name": "Sanitary pad",
+		"aliases": ["napkin", "सेनेटरी पैड"],
+		"category": "biomedical",
+		"rules": [
+			"Wrap in newspaper or a dedicated sanitary bag; seal and label “BIOMEDICAL”.",
+			"Hand over to municipal sanitary-waste collection, your authorized waste service, or nearest hospital/clinic if they accept community sanitary waste."
+		],
+		"mistakes": [
+			"Thrown loose or mixed with dry/wet bins",
+			"Flushed or burned"
+		]
+	},
+	{
+		"id": 47,
+		"name": "Diaper",
+		"aliases": ["baby diaper", "डायपर"],
+		"category": "biomedical",
+		"rules": [
+			"Empty solids into toilet if applicable, then double-wrap; label “BIOMEDICAL”.",
+			"Hand over to municipal sanitary-waste collection, your authorized waste service, or nearest hospital/clinic if they accept community sanitary waste."
+		],
+		"mistakes": [
+			"Mixed with recyclables",
+			"Left unwrapped causing leakage/odor"
+		]
+	},
+	{
+		"id": 48,
+		"name": "Mask (used)",
+		"aliases": ["face mask", "मास्क"],
+		"category": "biomedical",
+		"rules": [
+			"Cut ear loops, wrap securely; label “BIOMEDICAL”.",
+			"Hand over to municipal sanitary-waste collection or an authorized waste service; follow local guidance."
+		],
+		"mistakes": ["Thrown loose", "Placed with recyclables"]
+	},
+	{
+		"id": 49,
+		"name": "Bandage (used)",
+		"aliases": ["gauze", "पट्टी"],
+		"category": "biomedical",
+		"rules": [
+			"Double-bag or wrap to prevent seepage; label “BIOMEDICAL”.",
+			"Hand over to municipal sanitary-waste collection, an authorized service, or designated facility."
+		],
+		"mistakes": ["Left unwrapped", "Mixed with household bins"]
+	},
+	{
+		"id": 50,
+		"name": "Glass baking dish (broken)",
+		"aliases": ["oven dish shards", "pyrex broken", "कांच की बेकिंग डिश"],
+		"category": "dry-nonrecyclable",
+		"rules": [
+			"Wrap sharp edges securely; label as GLASS",
+			"Do not put in glass bottle recycling"
+		],
+		"mistakes": ["Putting in glass recycling with bottles/jars"]
+	},
+	{
+		"id": 51,
+		"name": "Plastic food wrapper (soiled)",
+		"aliases": ["dirty foil", "used snack wrapper", "गंदा पैकेट"],
+		"category": "dry-nonrecyclable",
+		"rules": [
+			"Food-stained soft plastic is not recyclable",
+			"Dispose in non-recyclable dry bin"
+		],
+		"mistakes": ["Mixing with clean recyclable plastics"]
+	},
+	{
+		"id": 52,
+		"name": "Paper bag (oily)",
+		"aliases": ["greasy paper bag", "oil stained bag", "तेल वाला पेपर बैग"],
+		"category": "dry-nonrecyclable",
+		"rules": [
+			"Heavily oil- or food-stained paper bags are not recyclable",
+			"Compost if food-safe and biodegradable"
+		],
+		"mistakes": ["Putting oily paper with clean paper/cardboard"]
+	},
+	{
+		"id": 53,
+		"name": "Metal foil pouch",
+		"aliases": ["coffee pouch", "chips metallic pack", "मेटल फॉयल पाउच"],
+		"category": "dry-nonrecyclable",
+		"rules": [
+			"Multi-layer plastic+metal pouches are usually not recyclable",
+			"Dispose in non-recyclable dry bin"
+		],
+		"mistakes": ["Assuming all metal-looking packaging is recyclable foil"]
+	},
+	{
+		"id": 54,
+		"name": "Ceramic mug (broken)",
+		"aliases": ["broken cup", "सिरेमिक कप"],
+		"category": "dry-nonrecyclable",
+		"rules": [
+			"Wrap pieces securely; label as CERAMIC",
+			"Do not mix with glass recycling"
+		],
+		"mistakes": ["Putting broken ceramics with glass bottles/jars"]
+	}
+]

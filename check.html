@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WasteWise — Photo check</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <a id="back-link" href="item.html" class="back">← Back</a>
+    <h1>Check contamination</h1>
+    <p class="tagline">Answer a few quick questions</p>
+    <link rel="icon" type="image/png" href="icons/logo.png" sizes="32x32"> <link rel="icon" type="image/png" href="icons/logo.png" sizes="192x192"> <link rel="apple-touch-icon" href="icons/logo.png">
+  </header>
+
+  <main>
+    <!-- Checklist -->
+    <section class="checklist">
+      <label><input type="checkbox" id="oily" /> Is it oily/greasy?</label>
+      <label><input type="checkbox" id="liquid" /> Is there liquid inside?</label>
+    </section>
+
+    <!-- Run check button -->
+    <button id="run-check" class="button">Run check</button>
+
+    <!-- Result box -->
+    <div id="result" class="result" style="display:none"></div>
+
+    <!-- Mark disposal as correct/incorrect -->
+    <div class="actions">
+      <button id="btn-correct" class="button good">I disposed correctly</button>
+      <button id="btn-incorrect" class="button bad">I made a mistake</button>
+    </div>
+  </main>
+
+  <!-- Tabs -->
+  <nav class="tabs">
+    <a class="tab" href="index.html">Search</a>
+    <a class="tab" href="reminders.html">Streak</a>
+  </nav>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

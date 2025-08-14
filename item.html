@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>WasteWise — Item details</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="icons/logo.png" sizes="32x32"> <link rel="icon" type="image/png" href="icons/logo.png" sizes="192x192"> <link rel="apple-touch-icon" href="icons/logo.png">
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<a href="index.html" class="back">Back</a>
+			<h1 id="item-name">Item</h1>
+			<p class="tagline">Know exactly where it belongs</p>
+		</header>
+
+		<main>
+			<!-- Category Badge -->
+			<div id="item-category" class="badge"></div>
+
+			<!-- Verdict -->
+			<h2>Verdict</h2>
+			<p id="verdict" class="helper"></p>
+
+			<!-- Where it goes -->
+			<h2>Where it goes</h2>
+			<p id="bin-where" class="helper"></p>
+			<p class="small">
+				If unsure about pickup, contact the municipal helpline or an
+				authorized waste collection service. Some clinics/hospitals
+				accept community sanitary waste—call ahead to confirm.
+			</p>
+
+			<!-- Do / Avoid -->
+			<section id="do-avoid" class="do-avoid" style="display: none">
+				<div class="do">Do: <span id="do-text"></span></div>
+				<div class="avoid">Avoid: <span id="avoid-text"></span></div>
+			</section>
+
+			<!-- Rules -->
+			<h2>Rules</h2>
+			<ul id="rules"></ul>
+
+			<!-- Mistakes -->
+			<h2>Common mistakes</h2>
+			<ul id="mistakes"></ul>
+		</main>
+
+		<!-- Bottom nav -->
+		<nav class="tabs">
+			<a class="tab" href="index.html">Search</a>
+		</nav>
+
+		<!-- Toast -->
+		<div id="toast" class="toast"></div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
