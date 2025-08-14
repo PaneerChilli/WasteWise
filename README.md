@@ -58,8 +58,7 @@ Currently, `reminders.html` is **not linked** in the main application flow and i
 ---
 
 ## 🎥 Demo Video
-[[Add your demo video link here – Google Drive / YouTube (public link)]](https://drive.google.com/file/d/1iG1BLQfjJaSCP5TPMwZZO8qKGeLXjM0C/view?usp=sharing)
-
+https://drive.google.com/file/d/1iG1BLQfjJaSCP5TPMwZZO8qKGeLXjM0C/view?usp=sharing
 ---
 
 ## 📅 Future Enhancements
